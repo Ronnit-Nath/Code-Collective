@@ -223,7 +223,7 @@ canvas {
 }
 /* Hero end*/
 
-/* .head-img {
+.head-img {
   width: 500 px;
   animation: rotation 6s infinite linear;
 }
@@ -248,4 +248,4 @@ canvas {
   to {
     transform: rotate(360deg);
   }
-} */
+}
