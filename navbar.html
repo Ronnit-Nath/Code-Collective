@@ -107,6 +107,16 @@ JOIN NOW
           </div>
         </button>
 
+        <script>
+          	// Grab HTML Elements
+	const btn = document.querySelector("button.ham-menu");
+	const menu = document.querySelector(".mob-list");
+
+	// Add Event Listeners
+	btn.addEventListener("click", () => {
+	menu.classList.toggle("hidden");
+	});
+        </script>
 
         
       </nav>
