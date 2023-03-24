@@ -171,9 +171,9 @@ header.active .button:hover {
   background-color: #151515;
 }
 
-header.active .mob-list {
-  background-color: #151515;
-}
+/* header.active .header-menu {
+  background-color: #808080;
+} */
 
 /* Hero Demo Content*/
 .hero {
