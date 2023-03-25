@@ -140,7 +140,9 @@
   }
 
   .img {
-    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 33%;
     margin-top: -700px;
     position: absolute;
     width: 560px;
