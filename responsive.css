@@ -11,6 +11,16 @@
     position: absolute;
     margin-right: 5%;
     width: 325px;
+    animation: rotation 6s infinite linear;
+
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
   }
 
   .cards {
