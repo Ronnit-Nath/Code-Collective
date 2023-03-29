@@ -6,8 +6,8 @@
   }
 
   .img {
-    margin-left: 15%;
-    margin-top: -700px;
+    margin-left: 10%;
+    margin-top: -500px;
     position: absolute;
     margin-right: 5%;
     width: 325px;
@@ -92,7 +92,7 @@
     height: 100vh;
   }
 
-  .head-img {
+  .img {
     display: flex;
     justify-content: center;
     margin-left: -5%;
@@ -113,7 +113,7 @@
     height: 100vh;
   }
 
-  .head-img {
+  .img {
     display: flex;
     justify-content: center;
     margin-left: 3%;
@@ -142,11 +142,11 @@
     height: 60vh;
   }
 
-  .head-img {
+  .img {
     display: flex;
     justify-content: center;
-    margin-left: 0%;
-    margin-bottom: 700px;
+    margin-left: 10%;
+    margin-top: -700px;
     position: absolute;
     width: 650px;
   }
