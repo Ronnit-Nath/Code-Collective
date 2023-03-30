@@ -161,8 +161,8 @@
   .img {
     display: flex;
     justify-content: center;
-    margin-left: 30%;
-    margin-top: -700px;
+    margin-left: 20%;
+    margin-top: -600px;
     position: absolute;
     width: 800px;
     animation: rotation 6s infinite linear;
