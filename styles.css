@@ -308,3 +308,7 @@ canvas {
 html {
   scroll-behavior: smooth;
 }
+
+.member {
+  height: 100vh;
+}
