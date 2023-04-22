@@ -1,3 +1,4 @@
 /node_modules
 //   /path/to/project/node_modules/@types
 /.json
+src_code.html
