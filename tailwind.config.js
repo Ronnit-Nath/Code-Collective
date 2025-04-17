@@ -1,13 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  // ...
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/line-clamp"),
-    require("@tailwindcss/aspect-ratio"),
+  content: [
+    './**/*.html',
+    './**/*.js',
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive'],
+        'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
 };
 
 module.exports = {
