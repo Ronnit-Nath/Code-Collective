@@ -15,7 +15,7 @@ def makeCommits(days: int):
         # commit
         os.system('git commit --date="' + dates + '" -m "updated"')
 
-        return days * makeCommits(days - 1)
+        return days * makeCommits(days - 3)
 
 
-makeCommits(60)
+makeCommits(100)
